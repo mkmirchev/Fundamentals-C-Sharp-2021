@@ -16,7 +16,7 @@ namespace TriplesofLatinLetters
                     for (int l = 0; l < input; l++)
                     {
                         char thirdChar = (char)('a' + l);
-                        Console.WriteLine(firstChar.ToString()+secondChar.ToString()+thirdChar.ToString());
+                        Console.WriteLine(firstChar.ToString() + secondChar.ToString() + thirdChar.ToString());
                     }
                 }
             }

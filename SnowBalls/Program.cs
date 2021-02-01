@@ -17,7 +17,7 @@ namespace SnowBalls
                 int snowballTime = int.Parse(Console.ReadLine());
                 int snowballQuality = int.Parse(Console.ReadLine());
                 int div = snowballSnow / snowballTime;
-                BigInteger snowballValue = BigInteger.Pow(div,snowballQuality);
+                BigInteger snowballValue = BigInteger.Pow(div, snowballQuality);
                 if (bestsnowballValue <= snowballValue)
                 {
                     bestsnowballSnow = snowballSnow;

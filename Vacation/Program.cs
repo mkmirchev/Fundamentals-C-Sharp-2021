@@ -74,7 +74,7 @@ namespace Vacation
             {
                 discount = 0.05;
             }
-            totalPrice = groupSize * ticketPrice*(1-discount);
+            totalPrice = groupSize * ticketPrice * (1 - discount);
 
             //output data
             Console.WriteLine("Total price: {0:F2}", totalPrice);

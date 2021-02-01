@@ -11,15 +11,15 @@ namespace Login
             int counter = 0;
             var password = new StringBuilder(username.Length);
 
-            for (int i = (username.Length -1); i >= 0; i--)
+            for (int i = (username.Length - 1); i >= 0; i--)
             {
                 password.Append(username[i]);
             }
             while (true)
-            {               
+            {
                 if (counter == 3)
                 {
-                    Console.WriteLine("User "+username+" blocked!");
+                    Console.WriteLine("User " + username + " blocked!");
                     break;
                 }
                 inputData = Console.ReadLine();
@@ -29,7 +29,7 @@ namespace Login
                     break;
                 }
                 Console.WriteLine("Incorrect password. Try again.");
-                counter++;             
+                counter++;
             }
         }
     }

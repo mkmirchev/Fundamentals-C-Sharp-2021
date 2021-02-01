@@ -26,7 +26,7 @@ namespace StrongNumber
                 sum += fact;
                 fact = 1;
             }
-            if(number == sum)
+            if (number == sum)
             {
                 Console.WriteLine("yes");
             }

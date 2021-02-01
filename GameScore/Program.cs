@@ -10,7 +10,7 @@ namespace GameStore
             string input = "";
             double gamePrice = 0;
             double totalSpend = 0;
-                double startMoney = budget;
+            double startMoney = budget;
             while (true)
             {
 
@@ -53,7 +53,7 @@ namespace GameStore
                         Console.WriteLine("Not Found");
                         break;
                 }
-                if (budget - gamePrice >= 0 && gamePrice !=0)
+                if (budget - gamePrice >= 0 && gamePrice != 0)
                 {
                     Console.WriteLine("Bought " + input);
                     totalSpend += gamePrice;

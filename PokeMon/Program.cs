@@ -6,8 +6,8 @@ namespace PokeMon
     {
         static void Main(string[] args)
         {
-            int pokePower = int.Parse(Console.ReadLine()); 
-            int distance = int.Parse(Console.ReadLine());  
+            int pokePower = int.Parse(Console.ReadLine());
+            int distance = int.Parse(Console.ReadLine());
             int exhaustFactor = int.Parse(Console.ReadLine());
             double moreExhausted = (double)pokePower / 2;
             int targetsCount = 0;

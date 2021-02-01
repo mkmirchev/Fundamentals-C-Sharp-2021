@@ -11,11 +11,11 @@ namespace PrintAndSum
             int sum = 0;
             for (int i = startNumber; i <= endNumber; i++)
             {
-                Console.Write("{0} ",i);
+                Console.Write("{0} ", i);
                 sum += i;
             }
             Console.WriteLine();
-            Console.WriteLine("Sum: {0}",sum);
+            Console.WriteLine("Sum: {0}", sum);
         }
     }
 }

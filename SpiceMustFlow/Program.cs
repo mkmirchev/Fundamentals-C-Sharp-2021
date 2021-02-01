@@ -23,7 +23,7 @@ namespace SpiceMustFlow
             else
             {
                 Console.WriteLine(count);
-                Console.WriteLine(totalYield-26); // decreasing yield by 26 for the last day
+                Console.WriteLine(totalYield - 26); // decreasing yield by 26 for the last day
             }
 
         }

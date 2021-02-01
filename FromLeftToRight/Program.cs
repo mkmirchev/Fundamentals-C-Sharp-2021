@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Numerics;
 
 namespace FromLeftToRight
@@ -13,7 +12,7 @@ namespace FromLeftToRight
             {
                 string[] input = Console.ReadLine().Split(" ");
                 BigInteger firstNumber = BigInteger.Parse(input[0]);
-                
+
                 BigInteger secondNumber = BigInteger.Parse(input[1]);
                 if (firstNumber > secondNumber)
                 {
@@ -21,7 +20,7 @@ namespace FromLeftToRight
                 }
                 else if (firstNumber <= secondNumber)
                 {
-                    Console.WriteLine(SumIntDigits(secondNumber)); 
+                    Console.WriteLine(SumIntDigits(secondNumber));
                 }
 
             }

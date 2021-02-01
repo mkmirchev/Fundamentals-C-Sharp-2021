@@ -13,7 +13,7 @@ namespace DataTypeFinder
                 {
                     break;
                 }
-                if (int.TryParse(input,out int number))
+                if (int.TryParse(input, out int number))
                 {
                     Console.WriteLine("{0} is integer type", input);
                 }
@@ -25,7 +25,7 @@ namespace DataTypeFinder
                 {
                     Console.WriteLine("{0} is character type", input);
                 }
-                else if (bool.TryParse(input,out bool check))
+                else if (bool.TryParse(input, out bool check))
                 {
                     Console.WriteLine("{0} is boolean type", input);
                 }

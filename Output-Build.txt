@@ -1,1 +1,5 @@
-﻿========== Build: 0 succeeded, 0 failed, 6 up-to-date, 0 skipped ==========
+﻿Error occurred while restoring NuGet packages: The operation failed as details for project FromLeftToRight could not be loaded.
+1>------ Build started: Project: Refactoring-PrimeChecker, Configuration: Debug Any CPU ------
+1>C:\Program Files\dotnet\sdk\3.1.403\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets(241,5): error NETSDK1004: Assets file 'C:\Users\Axull\source\repos\Fundamentals C-Sharp 2021\Refactoring-PrimeChecker\obj\project.assets.json' not found. Run a NuGet package restore to generate this file.
+1>Done building project "Refactoring-PrimeChecker.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

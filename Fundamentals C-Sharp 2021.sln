@@ -75,29 +75,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedBrackets", "Balance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refactoring-PrimeChecker", "Refactoring-PrimeChecker\Refactoring-PrimeChecker.csproj", "{EDD24EAB-BB68-4EB2-9770-667A320906D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{2712B25F-3E51-4C45-BC6D-08BF4CD2BCDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{2712B25F-3E51-4C45-BC6D-08BF4CD2BCDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintNumbersReversed", "PrintNumbersReversed\PrintNumbersReversed.csproj", "{79B9F650-7DF7-4CD2-9C85-ABF39435A49D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintNumbersReversed", "PrintNumbersReversed\PrintNumbersReversed.csproj", "{79B9F650-7DF7-4CD2-9C85-ABF39435A49D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingNumbers", "RoundingNumbers\RoundingNumbers.csproj", "{A547CA9F-8F63-432F-A394-398967494130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundingNumbers", "RoundingNumbers\RoundingNumbers.csproj", "{A547CA9F-8F63-432F-A394-398967494130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArrayOfStrings", "ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{91CD4BD7-9B10-4C80-AF47-BD2101EA0173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArrayOfStrings", "ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{91CD4BD7-9B10-4C80-AF47-BD2101EA0173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfEvenNumbers", "SumOfEvenNumbers\SumOfEvenNumbers.csproj", "{8E4A24B5-3F2D-4D3E-B5C5-C1CE3D40BE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfEvenNumbers", "SumOfEvenNumbers\SumOfEvenNumbers.csproj", "{8E4A24B5-3F2D-4D3E-B5C5-C1CE3D40BE9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddSubstraction", "EvenAndOddSubstraction\EvenAndOddSubstraction.csproj", "{E74232D5-CADC-49F2-AE97-20BA268F799A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenAndOddSubstraction", "EvenAndOddSubstraction\EvenAndOddSubstraction.csproj", "{E74232D5-CADC-49F2-AE97-20BA268F799A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquaArrays", "EquaArrays\EquaArrays.csproj", "{6826BE8B-8A0E-432F-AFA0-49BD03F06E46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquaArrays", "EquaArrays\EquaArrays.csproj", "{6826BE8B-8A0E-432F-AFA0-49BD03F06E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{3F9E1E5C-1AF0-4313-A309-A72CA94BF956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{3F9E1E5C-1AF0-4313-A309-A72CA94BF956}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays Lab", "Arrays Lab", "{11B63446-87AC-4946-8F6B-42A0107D9055}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays Exercises", "Arrays Exercises", "{3F72CE9C-F410-4418-B9C7-014C0F8E3CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train", "Train\Train.csproj", "{6F2DC28E-54B3-44D2-82F5-F61A86EE0C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train", "Train\Train.csproj", "{6F2DC28E-54B3-44D2-82F5-F61A86EE0C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonElements", "CommonElements\CommonElements.csproj", "{EDF8C5EE-CEA2-48A3-89F6-3455A9216352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonElements", "CommonElements\CommonElements.csproj", "{EDF8C5EE-CEA2-48A3-89F6-3455A9216352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagArrays", "ZigZagArrays\ZigZagArrays.csproj", "{E27E73C2-F7F2-44F8-9D75-0A0A4D3D2213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayRotation", "ArrayRotation\ArrayRotation.csproj", "{CC4B9773-444C-4C7F-9990-3BFCCC805B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopIntegers", "TopIntegers\TopIntegers.csproj", "{50EDBF3B-5AFA-42FD-AB47-47766D6EFABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +279,18 @@ Global
 		{EDF8C5EE-CEA2-48A3-89F6-3455A9216352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF8C5EE-CEA2-48A3-89F6-3455A9216352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF8C5EE-CEA2-48A3-89F6-3455A9216352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27E73C2-F7F2-44F8-9D75-0A0A4D3D2213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27E73C2-F7F2-44F8-9D75-0A0A4D3D2213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27E73C2-F7F2-44F8-9D75-0A0A4D3D2213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27E73C2-F7F2-44F8-9D75-0A0A4D3D2213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4B9773-444C-4C7F-9990-3BFCCC805B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4B9773-444C-4C7F-9990-3BFCCC805B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4B9773-444C-4C7F-9990-3BFCCC805B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4B9773-444C-4C7F-9990-3BFCCC805B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EDBF3B-5AFA-42FD-AB47-47766D6EFABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EDBF3B-5AFA-42FD-AB47-47766D6EFABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EDBF3B-5AFA-42FD-AB47-47766D6EFABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EDBF3B-5AFA-42FD-AB47-47766D6EFABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

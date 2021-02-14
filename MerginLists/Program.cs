@@ -17,36 +17,36 @@ namespace MerginLists
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
-            int newListLenght = firstList.Count + secondList.Count;
-            int shorterList;
-            if (firstList.Count > secondList.Count)
+            List<int> output = new List<int>();
+            if (firstList.Count <= secondList.Count)
             {
-                shorterList = secondList.Count;
+                for (int i = 0; i < firstList.Count; i++)
+                {
+                    output.Add(firstList[i]);
+                    output.Add(secondList[i]);
+                }
+                if (firstList.Count <= secondList.Count)
+                {
+                    for (int i = firstList.Count; i < secondList.Count; i++)
+                    {
+                        output.Add(secondList[i]);
+                    }
+                }
+             
             }
             else
             {
-                shorterList = firstList.Count;
-            }
-
-            List<int> output = new List<int>(newListLenght);
-            int count = 0;
-            for (int i = 0; i <= shorterList; i++)
-            {
-                    output[i] = firstList[count];
-                    output[i + 1] = secondList[count];
-                    count++;             
-            }
-            for (int j = shorterList; j <= newListLenght; j++)
-            {
-                if (firstList.Count==shorterList)
+                for (int i = 0; i < secondList.Count; i++)
                 {
-                    output[j] = secondList[j];
+                    output.Add(firstList[i]);
+                    output.Add(secondList[i]);
                 }
-                else
+                for (int i = secondList.Count; i < firstList.Count; i++)
                 {
-                    output[j] =firstList[j];
+                    output.Add(firstList[i]);
                 }
             }
+   
             Console.WriteLine(string.Join(' ', output));
         }
     }

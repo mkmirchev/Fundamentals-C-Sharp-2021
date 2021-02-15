@@ -5,9 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ChangeList\ChangeList.csproj" />
-    <ProjectReference Include="..\HouseParty\HouseParty.csproj" />
-  </ItemGroup>
-
 </Project>

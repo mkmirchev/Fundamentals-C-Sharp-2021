@@ -37,8 +37,7 @@ namespace BombNumbers
                             itemsToRemove[z] = true;
                         }                  
                     }
-                }
-               
+                }               
             }
             //processing output
             List<int> output = new List<int>();

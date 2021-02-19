@@ -20,48 +20,74 @@ namespace Anonymous_Threath
                 if (command[0] == "merge")
                 {
                     MergeList(input, int.Parse(command[1]), int.Parse(command[2]));
+                    //Console.WriteLine(string.Join(' ', input));
                 }
                 else if(command[0] == "divide")
                 {
-
+                    DivideList(input, int.Parse(command[1]), int.Parse(command[2]));
+                   // Console.WriteLine(string.Join(' ', input));
                 }
             }
 
             static List<string> MergeList(List<string> input, int startIndex, int endIndex)
             {
                 string mergedString = string.Empty;
-                for (int i = startIndex; i < endIndex; i++)
+                bool isValid = false;
+                for (int i = startIndex; i <= endIndex; i++)
                 {
-                    if (i < input.Count)
+                    if (startIndex <= input.Count-1 && startIndex >= 0)
                     {
                         mergedString += (input[startIndex]);
                         input.RemoveAt(startIndex);
+                        isValid = true;
                     }
                 }
-                input.Insert(startIndex, mergedString);
+                if (isValid == true)
+                {
+                    input.Insert(startIndex, mergedString);
+                }
+               
                 return input;
             }
 
             static List<string> DivideList(List<string> input, int index, int partitions)
             {
-                List<string> dividedElement = new List<string>(partitions);
+                List<string> dividedElement = new List<string>();
+                for (int s = 0; s < partitions; s++)
+                {
+                    dividedElement.Add("");
+                }
                 int capacity = input[index].ToString().Length;
                 string stringToDivide = input[index];
                 int elementValues = capacity / partitions;
+                int count = 0;
                 for (int i = 0; i < partitions; i++)
                 {
-                    for (int i = 0; i < elementValues; i++)
+                    if (i < partitions - 1)
                     {
-
+                        for (int k = 0 + count; k < elementValues + count; k++)
+                        {
+                            dividedElement[i] += stringToDivide[k].ToString();
+                        }
                     }
-                    dividedElement.Add(string.Concat(ch));
+                    else if (i == partitions - 1)
+                    {
+                        for (int k = 0 + count; k < input[index].Length; k++)
+                        {
+                            dividedElement[i] += stringToDivide[k].ToString(); ;
+                        }
+                    }
+                    count += elementValues;
+                    
                 }
                 input.RemoveAt(index);
+                dividedElement.Reverse();
                 foreach (var item in dividedElement)
                 {
                     input.Insert(index, item);
                 }
                 return input;
+
             }
         }
     }

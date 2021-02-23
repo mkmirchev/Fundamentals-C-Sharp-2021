@@ -235,15 +235,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleCatalogue", "Vehicle
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectAndClasses Exercise", "ObjectAndClasses Exercise", "{82E6DB24-151B-4E42-A3D4-8133783E9265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvertisementMessage", "AdvertisementMessage\AdvertisementMessage.csproj", "{1E6BB2A5-BC68-4228-9673-C8C4B7AE0657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvertisementMessage", "AdvertisementMessage\AdvertisementMessage.csproj", "{1E6BB2A5-BC68-4228-9673-C8C4B7AE0657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Articles", "Articles\Articles.csproj", "{6B15FE0E-C04B-4AA9-ABF4-63B7EB4074A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Articles", "Articles\Articles.csproj", "{6B15FE0E-C04B-4AA9-ABF4-63B7EB4074A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Articles2", "Articles2\Articles2.csproj", "{16746A36-60BE-4F08-897F-5D2FDF1282E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Articles2", "Articles2\Articles2.csproj", "{16746A36-60BE-4F08-897F-5D2FDF1282E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students-ObjectsAndClasses", "Students-ObjectsAndClasses\Students-ObjectsAndClasses.csproj", "{DD8EB939-5445-453F-BB5C-53348BB52426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Students-ObjectsAndClasses", "Students-ObjectsAndClasses\Students-ObjectsAndClasses.csproj", "{DD8EB939-5445-453F-BB5C-53348BB52426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamworkProjects", "TeamworkProjects\TeamworkProjects.csproj", "{4D9F38CC-3039-4AFC-B665-22A31175057E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamworkProjects", "TeamworkProjects\TeamworkProjects.csproj", "{4D9F38CC-3039-4AFC-B665-22A31175057E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleCatalogue2", "VehicleCatalogue2\VehicleCatalogue2.csproj", "{11309279-51FB-4F2C-AB5C-8908759785EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderByAge", "OrderByAge\OrderByAge.csproj", "{0A5332E2-09A2-4993-950E-D2B7E813E752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -683,6 +687,14 @@ Global
 		{4D9F38CC-3039-4AFC-B665-22A31175057E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9F38CC-3039-4AFC-B665-22A31175057E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9F38CC-3039-4AFC-B665-22A31175057E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11309279-51FB-4F2C-AB5C-8908759785EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11309279-51FB-4F2C-AB5C-8908759785EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11309279-51FB-4F2C-AB5C-8908759785EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11309279-51FB-4F2C-AB5C-8908759785EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5332E2-09A2-4993-950E-D2B7E813E752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5332E2-09A2-4993-950E-D2B7E813E752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5332E2-09A2-4993-950E-D2B7E813E752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5332E2-09A2-4993-950E-D2B7E813E752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -793,6 +805,8 @@ Global
 		{6B15FE0E-C04B-4AA9-ABF4-63B7EB4074A0} = {82E6DB24-151B-4E42-A3D4-8133783E9265}
 		{16746A36-60BE-4F08-897F-5D2FDF1282E7} = {82E6DB24-151B-4E42-A3D4-8133783E9265}
 		{DD8EB939-5445-453F-BB5C-53348BB52426} = {82E6DB24-151B-4E42-A3D4-8133783E9265}
+		{4D9F38CC-3039-4AFC-B665-22A31175057E} = {82E6DB24-151B-4E42-A3D4-8133783E9265}
+		{11309279-51FB-4F2C-AB5C-8908759785EB} = {82E6DB24-151B-4E42-A3D4-8133783E9265}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6634F764-52E2-4C51-8080-9BB70620DBE5}

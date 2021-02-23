@@ -12,7 +12,7 @@ namespace WaterOverflow
             for (int i = 0; i < rowsToRead; i++)
             {
                 int liters = int.Parse(Console.ReadLine());
-                if (currentLiters + liters < tankCapacity)
+                if (currentLiters + liters <= tankCapacity)
                 {
                     currentLiters += liters;
                 }

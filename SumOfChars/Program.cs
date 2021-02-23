@@ -14,7 +14,7 @@ namespace SumOfChars
                 int tempValue = (int)charInput;
                 sum += tempValue;
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("The sum equals: " + sum);
         }
     }
 }

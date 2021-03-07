@@ -281,23 +281,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargestThree", "LargestThre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Filter", "Word Filter\Word Filter.csproj", "{4AC36EA4-C5F5-4E58-9001-DCA6674EC133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInString", "CountCharsInString\CountCharsInString.csproj", "{45420FA2-22E4-4F00-88E1-E7CFC5A8038E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCharsInString", "CountCharsInString\CountCharsInString.csproj", "{45420FA2-22E4-4F00-88E1-E7CFC5A8038E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerTask", "MinerTask\MinerTask.csproj", "{65BD7577-2B45-40A6-A3E6-CB57886FD2BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinerTask", "MinerTask\MinerTask.csproj", "{65BD7577-2B45-40A6-A3E6-CB57886FD2BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legendary Farming", "Legendary Farming\Legendary Farming.csproj", "{5C96AF1B-BE34-433E-B100-9ADF66E5CEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legendary Farming", "Legendary Farming\Legendary Farming.csproj", "{5C96AF1B-BE34-433E-B100-9ADF66E5CEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders - associative arrays", "Orders - associative arrays\Orders - associative arrays.csproj", "{27FF0D05-3B5F-4301-B40A-734D399A92F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders - associative arrays", "Orders - associative arrays\Orders - associative arrays.csproj", "{27FF0D05-3B5F-4301-B40A-734D399A92F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Parking", "SoftUni Parking\SoftUni Parking.csproj", "{79826E6A-770A-4B77-B437-71E473288EA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUni Parking", "SoftUni Parking\SoftUni Parking.csproj", "{79826E6A-770A-4B77-B437-71E473288EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses", "Courses\Courses.csproj", "{AF1DF162-87C6-4253-833F-168CD4ED761E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courses", "Courses\Courses.csproj", "{AF1DF162-87C6-4253-833F-168CD4ED761E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Academy", "Student Academy\Student Academy.csproj", "{DC914CB7-BEB0-4AAB-A208-E362305C3618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student Academy", "Student Academy\Student Academy.csproj", "{DC914CB7-BEB0-4AAB-A208-E362305C3618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company Users", "Company Users\Company Users.csproj", "{67040118-0C65-4B8E-920B-10FFDF0C9EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company Users", "Company Users\Company Users.csproj", "{67040118-0C65-4B8E-920B-10FFDF0C9EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceBook", "ForceBook\ForceBook.csproj", "{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForceBook", "ForceBook\ForceBook.csproj", "{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softuni exam result", "Softuni exam result\Softuni exam result.csproj", "{9004C7BA-BF92-4228-BC77-48D748CA96A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -837,6 +839,10 @@ Global
 		{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

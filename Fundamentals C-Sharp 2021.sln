@@ -299,7 +299,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company Users", "Company Us
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForceBook", "ForceBook\ForceBook.csproj", "{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softuni exam result", "Softuni exam result\Softuni exam result.csproj", "{9004C7BA-BF92-4228-BC77-48D748CA96A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softuni exam result", "Softuni exam result\Softuni exam result.csproj", "{9004C7BA-BF92-4228-BC77-48D748CA96A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranking", "Ranking\Ranking.csproj", "{37B2FE05-894F-4F69-B04B-67FC42E58E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judge", "Judge\Judge.csproj", "{AB86EE4C-ACA2-4A7C-8C09-39DF84ABB8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -843,6 +847,14 @@ Global
 		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9004C7BA-BF92-4228-BC77-48D748CA96A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B2FE05-894F-4F69-B04B-67FC42E58E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B2FE05-894F-4F69-B04B-67FC42E58E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B2FE05-894F-4F69-B04B-67FC42E58E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B2FE05-894F-4F69-B04B-67FC42E58E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB86EE4C-ACA2-4A7C-8C09-39DF84ABB8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB86EE4C-ACA2-4A7C-8C09-39DF84ABB8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB86EE4C-ACA2-4A7C-8C09-39DF84ABB8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB86EE4C-ACA2-4A7C-8C09-39DF84ABB8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -979,6 +991,7 @@ Global
 		{DC914CB7-BEB0-4AAB-A208-E362305C3618} = {4DDE2C3A-191E-44C8-A0A2-7A0C472ABDA4}
 		{67040118-0C65-4B8E-920B-10FFDF0C9EC3} = {4DDE2C3A-191E-44C8-A0A2-7A0C472ABDA4}
 		{BA451FD0-FDBB-4BF8-B8A3-BBF71DD0653A} = {4DDE2C3A-191E-44C8-A0A2-7A0C472ABDA4}
+		{37B2FE05-894F-4F69-B04B-67FC42E58E99} = {4DDE2C3A-191E-44C8-A0A2-7A0C472ABDA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6634F764-52E2-4C51-8080-9BB70620DBE5}

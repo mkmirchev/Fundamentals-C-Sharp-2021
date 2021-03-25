@@ -309,19 +309,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse string", "Reverse s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text processing", "Text processing", "{92957E83-68C0-4771-B148-E03B28B80FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeat string", "Repeat string\Repeat string.csproj", "{E633AE71-5505-4035-A58D-9D4D9A833B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repeat string", "Repeat string\Repeat string.csproj", "{E633AE71-5505-4035-A58D-9D4D9A833B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Substring\Substring.csproj", "{E972FE80-A8F0-41E1-B194-92789407B99F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Substring", "Substring\Substring.csproj", "{E972FE80-A8F0-41E1-B194-92789407B99F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text Filter", "Text Filter\Text Filter.csproj", "{6449D3BE-183E-4574-9805-FF49C081EC40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text Filter", "Text Filter\Text Filter.csproj", "{6449D3BE-183E-4574-9805-FF49C081EC40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits, letters and others", "Digits, letters and others\Digits, letters and others.csproj", "{27B8B2AB-3CC0-437D-82B4-158FC90D5862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digits, letters and others", "Digits, letters and others\Digits, letters and others.csproj", "{27B8B2AB-3CC0-437D-82B4-158FC90D5862}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Username", "Valid Username\Valid Username.csproj", "{47B5D561-23B7-4C95-BF41-0F8797866A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Username", "Valid Username\Valid Username.csproj", "{47B5D561-23B7-4C95-BF41-0F8797866A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Character miltiplier", "Character miltiplier\Character miltiplier.csproj", "{5423E4B3-B486-4560-BCD4-2AEDBE55C2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Character miltiplier", "Character miltiplier\Character miltiplier.csproj", "{5423E4B3-B486-4560-BCD4-2AEDBE55C2BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract file", "Extract file\Extract file.csproj", "{4F754CA5-382F-4CC4-A319-B62E39354300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract file", "Extract file\Extract file.csproj", "{4F754CA5-382F-4CC4-A319-B62E39354300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ceaser Cipher", "Ceaser Cipher\Ceaser Cipher.csproj", "{7B1E8403-D690-4B43-8F65-0E1639133B8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply big numbers", "Multiply big numbers\Multiply big numbers.csproj", "{F705C915-0271-4D30-8C60-3CDF6AD33821}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replace repeating chars", "Replace repeating chars\Replace repeating chars.csproj", "{23A3CA53-946B-4176-BC68-C814B7FA6F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegularExpressions", "RegularExpressions", "{C088FCDB-83D9-49B8-A858-2792F20CE9AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Match Full Name", "Match Full Name\Match Full Name.csproj", "{5C705E37-B380-495D-8CE6-049C909E10CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final Exam Preparation", "Final Exam Preparation", "{309308C9-A471-4657-A794-3E7DA3662F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The imitation game", "The imitation game\The imitation game.csproj", "{129D8CB6-37C9-4253-8223-144D41E0D932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -905,6 +919,26 @@ Global
 		{4F754CA5-382F-4CC4-A319-B62E39354300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F754CA5-382F-4CC4-A319-B62E39354300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F754CA5-382F-4CC4-A319-B62E39354300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1E8403-D690-4B43-8F65-0E1639133B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1E8403-D690-4B43-8F65-0E1639133B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1E8403-D690-4B43-8F65-0E1639133B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1E8403-D690-4B43-8F65-0E1639133B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F705C915-0271-4D30-8C60-3CDF6AD33821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F705C915-0271-4D30-8C60-3CDF6AD33821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F705C915-0271-4D30-8C60-3CDF6AD33821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F705C915-0271-4D30-8C60-3CDF6AD33821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A3CA53-946B-4176-BC68-C814B7FA6F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A3CA53-946B-4176-BC68-C814B7FA6F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A3CA53-946B-4176-BC68-C814B7FA6F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A3CA53-946B-4176-BC68-C814B7FA6F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C705E37-B380-495D-8CE6-049C909E10CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C705E37-B380-495D-8CE6-049C909E10CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C705E37-B380-495D-8CE6-049C909E10CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C705E37-B380-495D-8CE6-049C909E10CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129D8CB6-37C9-4253-8223-144D41E0D932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129D8CB6-37C9-4253-8223-144D41E0D932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129D8CB6-37C9-4253-8223-144D41E0D932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129D8CB6-37C9-4253-8223-144D41E0D932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1048,6 +1082,12 @@ Global
 		{6449D3BE-183E-4574-9805-FF49C081EC40} = {92957E83-68C0-4771-B148-E03B28B80FEC}
 		{27B8B2AB-3CC0-437D-82B4-158FC90D5862} = {92957E83-68C0-4771-B148-E03B28B80FEC}
 		{47B5D561-23B7-4C95-BF41-0F8797866A02} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{5423E4B3-B486-4560-BCD4-2AEDBE55C2BD} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{4F754CA5-382F-4CC4-A319-B62E39354300} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{7B1E8403-D690-4B43-8F65-0E1639133B8A} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{F705C915-0271-4D30-8C60-3CDF6AD33821} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{23A3CA53-946B-4176-BC68-C814B7FA6F15} = {92957E83-68C0-4771-B148-E03B28B80FEC}
+		{5C705E37-B380-495D-8CE6-049C909E10CF} = {C088FCDB-83D9-49B8-A858-2792F20CE9AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6634F764-52E2-4C51-8080-9BB70620DBE5}

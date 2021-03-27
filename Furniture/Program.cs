@@ -22,7 +22,7 @@ namespace Furniture
                     {
                         Console.WriteLine(item);
                     }
-                    Console.WriteLine($"Total money spent: {moneySpent:F2}");
+                    Console.WriteLine($"Total money spend: {moneySpent:F2}");
                     break;
                 }
                 else

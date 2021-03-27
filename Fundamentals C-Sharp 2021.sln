@@ -337,15 +337,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final Exam Preparation", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The imitation game", "The imitation game\The imitation game.csproj", "{129D8CB6-37C9-4253-8223-144D41E0D932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ad astra", "Ad astra\Ad astra.csproj", "{F4E4D662-8219-4B82-926A-9AC17D7E856B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ad astra", "Ad astra\Ad astra.csproj", "{F4E4D662-8219-4B82-926A-9AC17D7E856B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The pianist", "The pianist\The pianist.csproj", "{3AF9A0FA-8CBE-42DE-BDD5-F317F0BEBB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The pianist", "The pianist\The pianist.csproj", "{3AF9A0FA-8CBE-42DE-BDD5-F317F0BEBB1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Match Dates", "Match phone number\Match Dates.csproj", "{9AE4693E-080E-428F-AAAE-7E866F94EB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Match Dates", "Match phone number\Match Dates.csproj", "{9AE4693E-080E-428F-AAAE-7E866F94EB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Match phone numbers", "Match phone numbers\Match phone numbers.csproj", "{F4CB88A7-33AE-42CA-BC60-7C23FF30F06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Match phone numbers", "Match phone numbers\Match phone numbers.csproj", "{F4CB88A7-33AE-42CA-BC60-7C23FF30F06A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Furniture\Furniture.csproj", "{83E0E5CC-7E93-4CF8-A817-CA87161C5481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Furniture", "Furniture\Furniture.csproj", "{83E0E5CC-7E93-4CF8-A817-CA87161C5481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Race", "Race\Race.csproj", "{84394992-CB73-4FC7-B281-3967C979ACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Bar Income", "SoftUni Bar Income\SoftUni Bar Income.csproj", "{C8408150-6B06-4B60-BFFF-065262ACCEDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -969,6 +973,14 @@ Global
 		{83E0E5CC-7E93-4CF8-A817-CA87161C5481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E0E5CC-7E93-4CF8-A817-CA87161C5481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E0E5CC-7E93-4CF8-A817-CA87161C5481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84394992-CB73-4FC7-B281-3967C979ACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84394992-CB73-4FC7-B281-3967C979ACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84394992-CB73-4FC7-B281-3967C979ACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84394992-CB73-4FC7-B281-3967C979ACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8408150-6B06-4B60-BFFF-065262ACCEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8408150-6B06-4B60-BFFF-065262ACCEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8408150-6B06-4B60-BFFF-065262ACCEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8408150-6B06-4B60-BFFF-065262ACCEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1123,6 +1135,7 @@ Global
 		{3AF9A0FA-8CBE-42DE-BDD5-F317F0BEBB1D} = {309308C9-A471-4657-A794-3E7DA3662F0C}
 		{9AE4693E-080E-428F-AAAE-7E866F94EB26} = {C088FCDB-83D9-49B8-A858-2792F20CE9AA}
 		{F4CB88A7-33AE-42CA-BC60-7C23FF30F06A} = {C088FCDB-83D9-49B8-A858-2792F20CE9AA}
+		{83E0E5CC-7E93-4CF8-A817-CA87161C5481} = {C088FCDB-83D9-49B8-A858-2792F20CE9AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6634F764-52E2-4C51-8080-9BB70620DBE5}
